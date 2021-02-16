@@ -1,0 +1,86 @@
+body { 
+     background-color: #F3FAF8;
+}
+
+.main-container{
+    display: flex;
+    position: relative;
+
+}
+
+#title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 32px;
+    background-color: #E5E8E8;
+    height: 5em;
+}
+
+.subtitle{
+    position: absolute;
+    display: block;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    font-style: italic;
+    top: 55%;
+}
+
+#img-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    width: 100%;
+    height: auto;
+    margin-left: -1%;
+}
+
+#image{
+    border-radius: 20px;
+    display: flex;
+}
+
+#img-caption{
+    background: rgba(0, 0, 0, 0.596);
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+    font-family: 'Josefin Slab', serif;;
+    font-size: 22px;
+}
+
+#tribute-info{
+    display: flex;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+}
+
+.main-text ul li{
+    list-style-type: square;
+    margin: 2em;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#biography-title{
+    display: block;
+    position: absolute;
+    left: 45%;
+    margin-bottom: 5%;
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+
+
